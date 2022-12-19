@@ -1,0 +1,67 @@
+/* header */
+.fa-brands{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #f77152;
+    text-align: center;
+    padding-top: 7px;
+}
+.collapse{
+    background-image: linear-gradient(to bottom,hsl(0deg 0% 28%),hsl(0, 0%, 10%));
+}
+a.nav-link{
+    color: hsl(300deg 1% 38%);
+    font-weight: bold;
+    padding: 20px 0px 20px 30px!important;
+    /* tren phai duoi trai */
+}
+a.nav-link.active{
+    color: #fff !important;
+}
+/* main */
+.content-homepicture{
+    display: flex;
+    justify-content: space-between;
+}
+.text-content>p{
+    margin: 0;
+    padding-top: 10px;
+    color: hsl(11deg 90% 64%);
+    font-size: 0.6em;
+}
+.fa-solid{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #f77152;
+    text-align: center;
+    padding-top: 7px;
+}
+.menu-home{
+    border-bottom: solid 1px hsl(0deg 0% 90%);
+}
+.name-date{
+    padding-top: 20px;
+    font-size: 0.7em;
+}
+.content-name-date{
+    font-size: 0.7em;
+    color: hsl(40deg 3% 78%);
+}
+.readmore{
+    text-decoration: none;
+    color: hsl(357deg 10% 41%);
+    font-weight: bold;
+}
+/* footer */
+footer{
+    background-color: hsl(0deg 0% 94%);
+}
+.cpyright{
+    font-size: 0.7em;
+}
